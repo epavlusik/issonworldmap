@@ -1,0 +1,29 @@
+
+body {
+    background-color: lightblue;
+  }
+#myCanvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+}
+
+#title, #APIdata {
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+.flex-container > div {
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+#bottom {
+    color:black;
+    text-align: center;
+}
