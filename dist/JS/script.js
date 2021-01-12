@@ -32,15 +32,15 @@ if(String(visibility) == "daylight") {
     document.getElementById("bottom").style.color = "black";
 }
 else if(String(visibility) == "eclipsed") {
-    document.body.style.backgroundColor = "yellow";
-    document.getElementById("title").style.color = "black";
-    document.getElementById("element1").style.backgroundColor = "red";
-    document.getElementById("element2").style.backgroundColor = "red";
-    document.getElementById("element3").style.backgroundColor = "red";
-    document.getElementById("element1").style.color = "white";
-    document.getElementById("element2").style.color = "white";
-    document.getElementById("element3").style.color = "white";
-    document.getElementById("bottom").style.color = "black";
+    document.body.style.backgroundColor = "darkblue";
+    document.getElementById("title").style.color = "white";
+    document.getElementById("element1").style.backgroundColor = "pink";
+    document.getElementById("element2").style.backgroundColor = "pink";
+    document.getElementById("element3").style.backgroundColor = "pink";
+    document.getElementById("element1").style.color = "black";
+    document.getElementById("element2").style.color = "black";
+    document.getElementById("element3").style.color = "black";
+    document.getElementById("bottom").style.color = "white";
 }
 else {
     document.body.style.backgroundColor = "black";
