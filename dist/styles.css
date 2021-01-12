@@ -27,3 +27,21 @@ body {
     color:black;
     text-align: center;
 }
+@media only screen and (max-width: 600px) { 
+    .flex-container, #title {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .flex-container > div {
+        margin: 20px;
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+    }
+    #myCanvas {
+        padding: 0;
+        margin: auto;
+        width: 350px;
+    }
+  }
