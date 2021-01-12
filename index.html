@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Website">
+	<meta name="keywords" content="erik pavlusik, technology">
+	<meta name="author" content="Erik Pavlusik">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>ISS on Sky</title>
+</head>
+<body>
+<h1 id="title">The Position of the ISS</h1>
+<p id="APIdata">
+    <div class="flex-container">
+    <div id="element1">
+    latitude: <span id="lat"></span>
+    </div>
+    <div id="element2">
+    longitude: <span id="lon"></span>
+    </div>
+    <div id="element3">
+    visibility: <span id="vis"></span>
+    </div>
+</div>
+</p>
+<canvas id="myCanvas" width="564.6" height="307.5" style="border:1px solid #050202;">
+</canvas>
+<p id="bottom">API from www.wheretheiss.at</p>
+<script src="JS/script.js"></script>
+</body>
+</html>
